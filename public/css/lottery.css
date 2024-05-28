@@ -1,0 +1,138 @@
+body{
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image:url(https://img.freepik.com/premium-photo/abstract-white-background-with-smooth-lines_476363-1518.jpg);
+    background-size: cover;
+}
+
+nav h1{
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 630px) {
+    .page_wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        margin-bottom: 1px;
+    } 
+
+    .td-border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 768px) {
+    .page_wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+    } 
+
+    .td-border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .page_wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+    } 
+
+    .td-border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .page_wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+    } 
+
+    .td-border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .page_wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        margin-top: 4rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+    } 
+
+    .td-border{
+        border: 1px solid white;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        width: 70%;
+    }
+}
+
